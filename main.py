@@ -26,7 +26,14 @@ persons = [
     Person("Aziz", 20),
 ]
 
+a = 0
 
-oldest_person = max(persons, key=lambda person: person.age)
-print(oldest_person.name)
+for person in persons:
+    a += person.age
+print(a)
+
+
+    
+# oldest_person = max(persons, key=lambda person: person.age)
+# print(person.name)
 
